@@ -10,15 +10,18 @@ html,
     flex-direction: row;
     margin: 0, auto;
     align-items: center;
-    row-gap: 1rem;
-    column-gap: 1rem;
+    gap: 3rem;
     flex-wrap: wrap;
 }
 .block {
     background-color: rgba(83, 83, 83, 0.538);
-    border-radius: .4;
-    margin: 20rem, auto;
+    border-radius: 2%;
+    margin: 20em, auto;
     width: 23%;
-    height: 20rem;
+    height: 20em;
     padding:1%
 } 
+#a1:hover{
+    transform: scale(1.1);
+    background-color: rgba(83, 83, 83, 0.538);
+}
