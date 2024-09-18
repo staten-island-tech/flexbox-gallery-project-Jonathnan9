@@ -3,10 +3,10 @@ html,
 * {
   font-size: 1rem;
   justify-content: center;
-  background-image: "img/image.png";
+  background-color: color-mix(in rgb(86, 143, 204) 50%, rgb(45, 118, 196) 50%);
 }
 .header {
-    
+
 }
 .blocks {
   display: flex;
@@ -17,7 +17,7 @@ html,
   flex-wrap: wrap;
 }
 .block {
-  background-color: rgba(83, 83, 83, 0.538);
+  background-color: rgba(111, 110, 110, 0.483);
   border-radius: 2%;
   box-shadow: 10px 10px;
   margin: 20em, auto;
