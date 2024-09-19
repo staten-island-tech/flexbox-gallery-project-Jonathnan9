@@ -1,13 +1,29 @@
-body,
-html,
-* {
+body{
+  background-color: rgb(206, 70, 70);
+  gap: 4em;
+  color:antiquewhite;
+}
+
+html *{
   font-size: 1rem;
   justify-content: center;
-  background-color: color-mix(in rgb(86, 143, 204) 50%, rgb(45, 118, 196) 50%);
 }
-.header {
+.heading {
+  background-color: rgba(221, 25, 25, 0.8); 
+  border-radius: 2em;
+  height: 35vh; 
+  width: 91%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  margin-bottom: 2em;
+  padding: 4%;
+}
+#title{
+  font-size: 1rem;
+}
 
-}
 .blocks {
   display: flex;
   flex-direction: row;
@@ -17,16 +33,19 @@ html,
   flex-wrap: wrap;
 }
 .block {
-  background-color: rgba(111, 110, 110, 0.483);
-  border-radius: 2%;
-  box-shadow: 10px 10px;
+  background-color: rgba(221, 25, 25, 0.8);
+  border-radius: 2em;
+  box-shadow: 10px 10px rgba(128, 0, 32, 0.8);
   margin: 20em, auto;
   width: 26%;
   height: 200px;
   padding: 1%;
   min-width: 20em;
+  transition-duration: .7s;
+  text-align: center;
 }
 #a1:hover {
   transform: scale(1.1);
-  bacdkground-color: rgba(0, 0, 0, 0.538);
+  color: black;
+  background-color: rgba(254, 132, 132, 0.8);
 }
