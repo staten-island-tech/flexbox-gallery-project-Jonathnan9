@@ -148,7 +148,6 @@ html * {
 }
 #a6:hover {
   transform: scale(1.1) rotateY(180deg);
-  color: black;
   background-color: rgba(19, 223, 217, 0.8);
 }
 #a7:hover {
@@ -163,6 +162,5 @@ html * {
 }
 #a9:hover {
   transition: background-color 0.8s, color 0.8s;
-  color: black;
   background-color: rgba(228, 96, 43, 0.8);
 }
