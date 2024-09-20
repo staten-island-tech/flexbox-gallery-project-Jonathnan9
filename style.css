@@ -10,7 +10,7 @@ html * {
   justify-content: center;
 }
 
-.baloo-2-<uniquifier> {
+.baloo-2-<uniquifier > {
   font-family: "Baloo 2", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
