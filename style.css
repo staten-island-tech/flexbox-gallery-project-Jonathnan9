@@ -54,7 +54,7 @@ html * {
     flex-direction: row;
   }
     .block {
-      width = 26%
+      width = 26%;
     }
   }
 
@@ -63,7 +63,7 @@ html * {
       flex-direction: column;
     }
       .block {
-        width = 49%%
+        width = 70%;
       }
     }
     
