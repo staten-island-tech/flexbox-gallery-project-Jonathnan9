@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(235, 100, 17);
   gap: 4em;
   color: rgb(255, 255, 255);
 }
@@ -9,7 +9,7 @@ html * {
   justify-content: center;
 }
 .heading {
-  background-color: rgba(255, 0, 76, 0.8);
+  background-color: rgba(235, 120, 47, 0.8);
   border-radius: 2em;
   height: 35vh;
   width: 91%;
@@ -33,9 +33,9 @@ html * {
   flex-wrap: wrap;
 }
 .block {
-  background-color: rgba(136, 255, 0, 0.8);
+  background-color: rgba(235, 120, 47, 0.8);
   border-radius: 2em;
-  box-shadow: 10px 10px rgba(0, 200, 255, 0.8);
+  box-shadow: 10px 10px rgba(82, 32, 1, 0.8);
   margin: 20em, auto;
   width: 26%;
   height: 200px;
@@ -44,54 +44,89 @@ html * {
   transition-duration: 0.7s;
   text-align: center;
 }
+.block img {
+  height: 70%;
+  object-fit: cover; /* or 'contain' */
+}
 
-@media screen and (max-width: 1px) {
+@media screen and (max-width: 1200px) {
   .blocks {
     flex-direction: row;
   }
-}
+    .block {
+      width = 26%
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .blocks {
+      flex-direction: column;
+    }
+      .block {
+        width = 49%%
+      }
+    }
+    
 #a1:hover {
   transform: scale(1.1);
   color: black;
-  background-color: rgba(230, 254, 132, 0.8);
+  background-color: rgba(12, 136, 225, 0.8);
 }
 #a2:hover {
   transform: scale(1.1);
   color: black;
-  background-color: rgba(230, 254, 132, 0.8);
+  background-color: rgba(12, 136, 225, 0.8);
 }
 #a3:hover {
-  transform: scale(1.1);
+  transform: translateY(-2em);
   color: black;
-  background-color: rgba(230, 254, 132, 0.8);
+  background-color: rgba(226, 131, 226, 0.8);
+  
 }
 #a4:hover {
-  transform: scale(1.1);
+  animation: pulse 0.8s infinite;
   color: black;
-  background-color: rgba(230, 254, 132, 0.8);
+  background-color: rgba(226, 131, 226, 0.8);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
 }
 #a5:hover {
-  transform: scale(1.1);
+  animation: shake 1s infinite;
   color: black;
-  background-color: rgba(230, 254, 132, 0.8);
+  background-color: rgba(226, 131, 226, 0.8);
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
 }
 #a6:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) rotateY(180deg);
   color: black;
-  background-color: rgba(230, 254, 132, 0.8);
+  background-color: rgba(19, 223, 217, 0.8);
 }
 #a7:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) skew(10deg);
   color: black;
-  background-color: rgba(230, 254, 132, 0.8);
+  background-color: rgba(226, 131, 226, 0.8);
 }
 #a8:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(360deg);
   color: black;
-  background-color: rgba(230, 254, 132, 0.8);
+  background-color: #edf247cc;
 }
 #a9:hover {
-  transform: scale(1.1);
+  transition: background-color 0.8s, color 0.8s;
   color: black;
-  background-color: rgba(230, 254, 132, 0.8);
+  background-color: rgba(228, 96, 43, 0.8);
 }
