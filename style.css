@@ -5,7 +5,7 @@ body {
 }
 
 html * {
-  font-size: 1rem;
+  font-size: 1.2vw;
   justify-content: center;
 }
 .heading {
@@ -21,7 +21,7 @@ html * {
   padding: 4%;
 }
 #title {
-  font-size: 10rem;
+  font-size: 8vw;
 }
 
 .blocks {
@@ -46,7 +46,7 @@ html * {
 }
 .block img {
   height: 70%;
-  object-fit: cover; /* or 'contain' */
+  object-fit: cover; 
 }
 
 @media screen and (max-width: 1200px) {
