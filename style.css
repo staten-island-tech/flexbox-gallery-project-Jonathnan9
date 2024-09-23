@@ -40,7 +40,7 @@ html * {
   flex-direction: row;
   margin: 0, auto;
   align-items: center;
-  gap: 3em;
+  gap: 1em;
   flex-wrap: wrap;
 }
 .block {
@@ -48,10 +48,10 @@ html * {
   border-radius: 2em;
   box-shadow: 10px 10px rgba(82, 32, 1, 0.8);
   margin: 20em, auto;
-  width: 26%;
+  width: 22%;
   height: 200px;
   padding: 1%;
-  min-width: 20em;
+  min-width: 15em;
   transition-duration: 0.7s;
   text-align: center;
 }
@@ -74,7 +74,7 @@ html * {
     flex-direction: row;
   }
   .block {
-    width: 44%;
+    width: 36%;
   }
   html * {
     font-size: 2vw;
