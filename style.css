@@ -2,6 +2,7 @@ body {
   background-color: rgb(235, 100, 17);
   gap: 4em;
   color: rgb(255, 255, 255);
+  box-sizing: border-box;
 }
 
 html * {
